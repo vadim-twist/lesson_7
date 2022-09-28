@@ -1,0 +1,505 @@
+@import url("reset.css");
+
+@font-face{
+	font-family: "Lato";
+	src: url("../fonts/latoregular.woff2") format("woff2"), url("../fonts/latoregular.woff") format("woff");
+	font-display: swap;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: "Lato";
+	src: url("../fonts/latobold.woff2") format("woff2"), url("../fonts/latobold.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face{
+	font-family: "Lato";
+	src: url("../fonts/latoblack.woff2") format("woff2"), url("../fonts/latoblack.woff") format("woff");
+	font-display: swap;
+	font-weight: 900;
+	font-style: normal; 
+}
+
+[class*="__container"]{
+	max-width: 840px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+body{
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	line-height: 1.6;
+	font-weight: 400;
+	color: #424551;
+}
+
+.header{
+	margin: 50px 0 92px;
+}
+
+.header-title{
+	font-size: 46px;
+	line-height: 1.3;
+	font-weight: 900;
+	color: #1E212C;
+}
+
+.main{
+	margin-bottom: 24px;
+}
+
+.desk{
+	margin-bottom: 60px;
+}
+
+.desk-content-img{
+	max-width: 100%;
+}
+
+.in-bold{
+	margin-bottom: 24px;
+}
+
+.in-bold-content-text{
+	font-size: 20px;
+	line-height: 1.5;
+	font-weight: 700;
+	color: #1E212C;
+}
+
+.in-regular{
+	margin-bottom: 48px;
+}
+
+.in-regular-content-text{
+	margin-bottom: 26px;
+}
+
+.in-regular-content-text.reset{
+	margin-bottom: 0;
+}
+
+.blockquote{
+	margin-bottom: 48px;
+}
+
+.blockquote-content-text{
+	font-size: 20px;
+	line-height: 1.5;
+	font-weight: 700;
+	color: #1E212C;
+	padding-left: 58px;
+	background-image: url("../img/icons/braces.svg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.in-regular-list-content-text{
+	margin-bottom: 24px;
+}
+
+.in-regular-list-content-item{
+	padding-left: 32px;
+	margin-bottom: 4px;
+	background-image: url("../img/icons/check.svg");
+	background-repeat: no-repeat;
+	background-position: 0 5px;
+}
+
+.in-regular-list-content-item.reset{
+	margin-bottom: 0;
+}
+
+.footer{
+	margin-bottom: 92px;
+}
+
+.background{
+	margin-bottom: 50px;
+}
+
+.background-title{
+	font-size: 48px;
+	line-height: 1.2;
+	font-weight: 900;
+	color: #1E212C;
+	margin-bottom: 20px;
+}
+
+.background-text,
+.background-color,
+.background-image,
+.background-repeat,
+.background-position,
+.background-attachment,
+.background-size{
+	margin-bottom: 20px;
+}
+
+.background-color-title,
+.background-image-title,
+.background-repeat-title,
+.background-position-title,
+.background-attachment-title,
+.background-size-title,
+.background-allinone-title{
+	font-size: 24px;
+	line-height: 1.4;
+	font-weight: 700;
+	color: #1E212C;
+	margin-bottom: 20px;
+}
+
+.background-color-text,
+.background-image-text,
+.background-repeat-text,
+.background-position-text,
+.background-attachment-text,
+.background-size-text{
+	margin-bottom: 20px;
+}
+
+.background-color-text span,
+.background-image-text span,
+.background-repeat-text span,
+.background-position-text span,
+.background-attachment-text span,
+.background-size-text span,
+.background-allinone-text span{
+	background-color: #eee;
+	padding: 2px;
+}
+
+.background-color-test,
+.background-image-test,
+.backrgound-repeat-test,
+.background-position-test,
+.background-attachment-test,
+.background-size-test{
+	max-width: 770px;
+	margin: 0 auto;
+	font-size: 0;
+}
+
+.background-repeat-test-wrapper,
+.background-position-test-wrapper,
+.background-attachment-test-wrapper,
+.background-size-test-wrapper{
+	max-width: 510px;
+	margin: 0 auto;
+}
+
+.background-image-test-wrapper{
+	max-width: 250px;
+	margin: 0 auto;
+}
+
+.background-color-test-1,
+.background-color-test-2,
+.background-color-test-3,
+.background-image-test-1,
+.background-image-test-2,
+.background-image-test-3,
+.background-image-test-4,
+.background-repeat-test-1,
+.background-repeat-test-2,
+.background-repeat-test-3,
+.background-repeat-test-4,
+.background-repeat-test-5,
+.background-repeat-test-6,
+.background-repeat-test-7,
+.background-repeat-test-8,
+.background-position-test-1,
+.background-position-test-2,
+.background-position-test-3,
+.background-position-test-4,
+.background-position-test-5,
+.background-position-test-6,
+.background-position-test-7,
+.background-size-test-1,
+.background-size-test-2,
+.background-size-test-3,
+.background-size-test-4,
+.background-attachment-test-1,
+.background-attachment-test-2{
+	display: inline-block;
+	font-size: 16px;
+	text-align: center;
+}
+
+.background-position-text,
+.background-size-text{
+	font-size: 16px;
+}
+
+.background-color-test-1 div,
+.background-color-test-2 div,
+.background-color-test-3 div,
+.background-image-test-1 div,
+.background-image-test-2 div,
+.background-image-test-3 div,
+.background-image-test-4 div,
+.background-repeat-test-1 div,
+.background-repeat-test-2 div,
+.background-repeat-test-3 div,
+.background-repeat-test-4 div,
+.background-repeat-test-5 div,
+.background-repeat-test-6 div,
+.background-repeat-test-7 div,
+.background-repeat-test-8 div,
+.background-position-test-1 div,
+.background-position-test-2 div,
+.background-position-test-3 div,
+.background-position-test-4 div,
+.background-position-test-5 div,
+.background-position-test-6 div,
+.background-position-test-7 div,
+.background-attachment-test-1 div,
+.background-attachment-test-2 div,
+.background-size-test-1 div,
+.background-size-test-2 div,
+.background-size-test-3 div,
+.background-size-test-4 div{
+	width: 250px;
+	height: 250px;
+	border: 3px solid #808080;
+	border-radius: 10px;
+}
+
+.background-color-test-1,
+.background-color-test-2,
+.background-image-test-1,
+.background-image-test-2,
+.background-repeat-test-1,
+.background-repeat-test-2,
+.background-repeat-test-4,
+.background-repeat-test-5,
+.background-repeat-test-7,
+.background-position-test-1,
+.background-position-test-2,
+.background-position-test-4,
+.background-position-test-6,
+.background-attachment-test-1,
+.background-size-test-1,
+.background-size-test-3{
+	margin-right: 10px;
+}
+
+.background-color-test-1 div,
+.background-color-test-2 div,
+.background-color-test-3 div,
+.background-image-test-1 div,
+.background-image-test-2 div,
+.background-image-test-3 div,
+.background-image-test-4 div,
+.background-repeat-test-1 div,
+.background-repeat-test-2 div,
+.background-repeat-test-3 div,
+.background-repeat-test-4 div,
+.background-repeat-test-5 div,
+.background-repeat-test-6 div,
+.background-repeat-test-7 div,
+.background-repeat-test-8 div,
+.background-position-test-1 div,
+.background-position-test-2 div,
+.background-position-test-3 div,
+.background-position-test-4 div,
+.background-position-test-5 div,
+.background-position-test-6 div,
+.background-position-test-7 div,
+.background-attachment-test-1 div,
+.background-attachment-test-2 div,
+.background-size-test-1 div,
+.background-size-test-2 div,
+.background-size-test-3 div,
+.background-size-test-4 div{
+	margin-bottom: 20px;
+}
+
+.background-color-test,
+.background-image-test,
+.background-image-test + p,
+.background-repeat-test-1,
+.background-repeat-test-2,
+.background-repeat-test-3,
+.background-repeat-test-4,
+.background-repeat-test-5,
+.background-repeat-test-6,
+.background-position-test-1,
+.background-position-test-2,
+.background-position-test-3,
+.background-position-test-wrapper,
+.background-position-text,
+.background-size-test-wrapper,
+.background-size-text{
+	margin-bottom: 20px;
+}
+
+.background-image-test.reset,
+.background-position-test-wrapper.reset,
+.background-size-test-wrapper.reset{
+	margin-bottom: 0;
+}
+
+
+
+.background-color-test-1 div{
+	background-color: #4169e1;
+}
+
+.background-color-test-2 div{
+	background-color: #9acd32;
+}
+
+.background-color-test-3 div{
+	background-color: transparent;
+}
+
+.background-image-test-4{
+	display: inline-block;
+}
+
+.background-image-test-1 div{
+	background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(180,45,145,0.9082983535210959) 46%, rgba(76,162,180,1) 100%);
+}
+
+.background-image-test-2 div{
+	background-image: url("../img/drifting.jpg");
+}
+
+.background-image-test-3 div{
+	background-image: none;
+}
+
+.background-image-test-4 div{
+	background-image:  url("../img/cigar-girl.jpeg"), url("../img/drifting.jpg");
+	background-repeat: no-repeat;
+}
+
+.background-repeat-test-1 div{
+	background-image: url("../img/drifting-100x100.jpg");
+}
+
+.background-repeat-test-2 div{
+	background-image: url("../img/drifting-100x100.jpg");
+	background-repeat: no-repeat;
+}
+
+.background-repeat-test-3 div{
+	background-image: url("../img/drifting-100x100.jpg");
+	background-repeat: repeat-x;
+}
+
+.background-repeat-test-4 div{
+	background-image: url("../img/drifting-100x100.jpg");
+	background-repeat: repeat-y;
+}
+
+.background-repeat-test-5 div{
+	background-image: url("../img/drifting-100x100.jpg");
+	background-repeat: space;
+}
+
+.background-repeat-test-6 div{
+	background-image: url("../img/drifting-100x100.jpg");
+	background-repeat: round;
+}
+
+.background-repeat-test-7 div{
+	background-image: url("../img/drifting-100x100.jpg");
+	background-repeat: space repeat;
+}
+
+.background-repeat-test-8 div{
+	background-image: url("../img/drifting-100x100.jpg");
+	background-repeat: round space;
+}
+
+.background-position-test-1 div{
+	background-image: url("../img/cigar-girl.jpeg");
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+.background-position-test-2 div{
+	background-image: url("../img/cigar-girl.jpeg");
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.background-position-test-3 div{
+	background-image: url("../img/cigar-girl.jpeg");
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.background-position-test-4 div{
+	background-image: url("../img/cigar-girl.jpeg");
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+.background-position-test-5 div{
+	background-image: url("../img/cigar-girl.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.background-position-test-6 div{
+	background-image: url("../img/cigar-girl.jpeg");
+	background-repeat: no-repeat;
+	background-position: 20px 120px;
+}
+
+.background-position-test-7 div{
+	background-image: url("../img/cigar-girl.jpeg");
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+
+.background-attachment-test-1 div{
+	background-color: #f0fff0;
+	background-image: url("../img/drifting.jpg");
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	overflow: hidden;
+	text-align: justify;
+}
+
+.background-attachment-test-2 div{
+	background-color: #40e0d0;
+	background-image: url("../img/drifting.jpg");
+	background-repeat: no-repeat;
+	background-position: 765px 166px;
+	background-attachment: fixed;
+	overflow: hidden;
+	text-align: justify;
+}
+
+.background-size-test-1 div{
+	background-image: url("../img/cigar-girl.jpeg");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.background-size-test-2 div{
+	background-image: url("../img/cigar-girl.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.background-size-test-3 div{
+	background-image: url("../img/drifting.jpg");
+	background-repeat: no-repeat;
+	background-size: 100px;
+}
+.background-size-test-4 div{
+	background-image: url("../img/drifting.jpg");
+	background-repeat: no-repeat;
+	background-size: 50% 70%;
+}
+
